@@ -92,7 +92,7 @@ END:VCARD`;
             <h2 className="text-[11px] gold-text font-bold uppercase tracking-[0.2em] mb-4">DevOps Engineer & Software Architecture</h2>
             <p className="text-gray-400 max-w-md mx-auto leading-relaxed">
               Especialista em automação de infraestrutura e delivery de software. 
-              Foco em <span className="text-blue-400">Docker</span>, <span className="text-blue-400">Terraform</span> e sistemas robustos com <span className="text-blue-400">Java</span> e <span className="text-blue-400">Python/FastAPI</span>.
+              Foco em <span className="text-blue-400">Docker</span>, <span className="text-blue-400">Terraform</span> e sistemas robustos com <span className="text-blue-400">Java</span> e <span className="text-blue-400">Python/FastAPI e Django</span>.
             </p>
           </div>
 
@@ -104,6 +104,9 @@ END:VCARD`;
             <SkillBadge icon="fa-docker" label="Docker" color="text-blue-400" />
             <SkillBadge icon="fa-java" label="Java" color="text-red-500" />
             <SkillBadge icon="fa-aws" label="AWS" color="text-orange-400" />
+            <SkillBadge icon="fa-python" label="Python" color="text-yellow-400" />
+            <SkillBadge icon="fa-server" label="Django" color="text-green-600" />
+            <SkillBadge icon="fa-mobile-screen-button" label="React Native" color="text-purple-400" />
           </div>
 
           {/* Lista de Contato Vertical */}
@@ -163,7 +166,7 @@ END:VCARD`;
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <Tag text="Java" />
-                  <Tag text="React" />
+                  <Tag text="Django" />
                   <Tag text="Docker" />
                 </div>
               </div>
