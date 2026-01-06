@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     id: 1,
     title: "Banco Moderno API",
     description: "Sistema bancário de alto nível com FastAPI, 100% Assíncrono, autenticação JWT e arquitetura modular. Foco em performance e segurança.",
-    image: "project-banco.png",
+    image: "/project-banco.png",
     tags: ["FastAPI", "Python", "Docker", "SQLAlchemy"]
   }
 ];
