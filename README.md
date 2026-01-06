@@ -10,19 +10,22 @@ Cartão de visitas digital e portfólio técnico focado em infraestrutura, autom
 ## 🚀 Tecnologias
 - React, TypeScript, Tailwind CSS
 
-## 🛠️ Como Rodar Localmente
+## 🚀 Como Rodar
 
-**Pré-requisitos:** Node.js instalado.
+Você pode usar os comandos do `npm` ou o `Makefile` incluído (recomendado para DevOps):
 
-1. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
+### Usando Makefile (Recomendado)
+```bash
+make install   # Instala dependências
+make dev       # Roda o projeto
+make build     # Gera o build de produção
+```
 
-2. **Inicie o projeto:**
-   ```bash
-   npm run dev
-   ```
+### Usando NPM
+```bash
+npm install
+npm run dev
+```
 
 3. **Acesse no navegador:**
    Abra [http://localhost:3000](http://localhost:3000)

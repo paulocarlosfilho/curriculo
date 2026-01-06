@@ -140,7 +140,7 @@ END:VCARD`;
             Salvar na Agenda
           </button>
 
-          {/* Projeto em Destaque: Carlos Rações */}
+          {/* Projeto em Destaque: Banco Moderno API */}
           <div className="w-full mb-10">
             <div className="flex items-center gap-3 mb-4">
               <div className="h-[2px] w-8 gold-bg"></div>
@@ -148,13 +148,13 @@ END:VCARD`;
             </div>
             
             <a 
-              href="https://github.com/paulocarlosfilho/petshop-simples"
+              href="https://github.com/paulocarlosfilho/agecia_bancaria_fastapi_dio_backend_python"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-white/10 rounded-[30px] overflow-hidden border border-white/20 group block transition-all hover:bg-white/15"
             >
               <div className="h-44 overflow-hidden relative">
-                <img src={PROJECTS[0].image} alt={PROJECTS[0].title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src={PROJECTS[0].image} alt={PROJECTS[0].title} className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
                 <div className="absolute bottom-4 left-5">
                   <h4 className="text-white font-bold text-lg">{PROJECTS[0].title}</h4>
@@ -165,9 +165,10 @@ END:VCARD`;
                   {PROJECTS[0].description}
                 </p>
                 <div className="flex gap-2 flex-wrap">
-                  <Tag text="Java" />
-                  <Tag text="Django" />
+                  <Tag text="FastAPI" />
+                  <Tag text="Python" />
                   <Tag text="Docker" />
+                  <Tag text="SQLAlchemy" />
                 </div>
               </div>
             </a>

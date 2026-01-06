@@ -14,9 +14,9 @@ export const CONTACT_DATA: ContactInfo = {
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "Carlos Rações Ecosystem",
-    description: "Sistema completo de gestão para Petshops. Desenvolvido com React para uma interface fluida e Node.js no backend para alta escalabilidade.",
-    image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=600",
-    tags: ["React", "Node.js", "Docker"]
+    title: "Banco Moderno API",
+    description: "Sistema bancário de alto nível com FastAPI, 100% Assíncrono, autenticação JWT e arquitetura modular. Foco em performance e segurança.",
+    image: "project-banco.png",
+    tags: ["FastAPI", "Python", "Docker", "SQLAlchemy"]
   }
 ];
